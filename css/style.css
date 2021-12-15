@@ -186,7 +186,12 @@
         fill: currentColor;
     }
     
-    .header-link-group:hover {
+    .header-link-group:hover,
+    .header-link-group:focus {
+        color: var(--hover-text-color);
+    }
+    
+    .header-link-group:focus {
         color: var(--hover-text-color);
     }
     /*MAIN*/
@@ -470,36 +475,29 @@
     .footer-spacing {
         margin-bottom: 9px;
     }
-    
-    .footer-list .footer-data:hover .footer-address {
+    /*.footer-data:hover .footer-address,
+    .footer-data:focus .footer-address {
         color: var(--hover-text-color);
-    }
-    
-    .footer-list .footer-data:focus .footer-address {
-        color: var(--hover-text-color);
-    }
+    }*/
     
     .footer-mail {
         color: rgba(255, 255, 255, 0.6);
     }
-    
-    .footer-information:hover .footer-mail {
-        color: var(--hover-text-color);
-    }
-    
+    /*.footer-information:hover .footer-mail,
     .footer-information:focus .footer-mail {
         color: var(--hover-text-color);
-    }
+    }*/
     
     .footer-tel {
         color: #FFFFFF99;
     }
-    
-    .footer-contact:hover .footer-tel {
-        color: var(--hover-text-color);
-    }
-    
+    /*.footer-contact:hover .footer-tel,
     .footer-contact:focus .footer-tel {
+        color: var(--hover-text-color);
+    }*/
+    
+    .footer-holder:hover,
+    .footer-holder:focus {
         color: var(--hover-text-color);
     }
     
@@ -543,7 +541,7 @@
     }
     
     .footer-link:hover,
-    .footer-team-link:focus {
+    .footer-link:focus {
         background-color: var(--hover-text-color);
     }
     
@@ -583,7 +581,8 @@
         padding: 6px 22px;
     }
     
-    .portfolio-btn:hover {
+    .portfolio-btn:hover,
+    .portfolio-btn:focus {
         background: #2196F3;
         color: var(--button-text-color);
     }
@@ -623,9 +622,10 @@
     .portfolio-drowing:nth-child(3n+3) {
         margin-right: 0;
     }
-    /*.portfolio-drowing:nth-child(1n+7) {
-    margin-bottom: 94px;
-}*/
+    
+    .portfolio-drowing:nth-child(1n+7) {
+        margin-bottom: 0;
+    }
     
     .portfolio-wrapper {
         padding: 20px 24px;
