@@ -190,10 +190,6 @@
     .header-link-group:focus {
         color: var(--hover-text-color);
     }
-    
-    .header-link-group:focus {
-        color: var(--hover-text-color);
-    }
     /*MAIN*/
     /*SECTION BANNER*/
     
@@ -339,7 +335,7 @@
     .inner-name {
         font-weight: 500;
         font-size: 16px;
-        line-height: 19px;
+        line-height: 1.19;
         letter-spacing: 0.03em;
         margin-bottom: 10px;
     }
@@ -352,7 +348,7 @@
     .inner-position {
         font-weight: 400;
         font-size: 16px;
-        line-height: 19px;
+        line-height: 1.19;
         letter-spacing: 0.03em;
         color: var(--profession-text-color);
     }
@@ -475,26 +471,14 @@
     .footer-spacing {
         margin-bottom: 9px;
     }
-    /*.footer-data:hover .footer-address,
-    .footer-data:focus .footer-address {
-        color: var(--hover-text-color);
-    }*/
     
     .footer-mail {
         color: rgba(255, 255, 255, 0.6);
     }
-    /*.footer-information:hover .footer-mail,
-    .footer-information:focus .footer-mail {
-        color: var(--hover-text-color);
-    }*/
     
     .footer-tel {
         color: #FFFFFF99;
     }
-    /*.footer-contact:hover .footer-tel,
-    .footer-contact:focus .footer-tel {
-        color: var(--hover-text-color);
-    }*/
     
     .footer-holder:hover,
     .footer-holder:focus {
